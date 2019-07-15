@@ -1,0 +1,19 @@
+@import '../../../colors';
+
+.sort-selector {
+  > * {
+    border: none;
+  }
+
+  select {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  button {
+    margin-left: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    background-color: $primary-light;
+    color: white;
+  }
+}
